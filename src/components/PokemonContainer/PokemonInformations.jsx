@@ -112,7 +112,7 @@ const PokemonInformations = () => {
         <div>
           <img
             style={{ width: "5rem" }}
-            src={`/pokedex/icons/${pokemon.types[0].type.name}.svg`}
+            src={`/pokedex-app/icons/${pokemon.types[0].type.name}.svg`}
             alt=""
           />
           <div>
@@ -143,7 +143,7 @@ const PokemonInformations = () => {
           </div>
         </div>
       </div>
-      <img src={`/pokedex/pokemon/${pokemon.id}.png`} alt="" />
+      <img src={`/pokedex-app/pokemon/${pokemon.id}.png`} alt="" />
     </Wrapper>
   );
 };
